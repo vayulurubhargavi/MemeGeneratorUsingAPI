@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  
+  width:90vh;
+  margin: 50px auto;
+  background-color: cyan;
+  
+
+}
+
+.Header{
+  padding: 8px;
+  height:5vh;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: coral;
+}
+
+/* meme */
+
+
+.meme-form{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+
+  
+}
+
+.input-form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+
+ 
+/* meme-button */
+.form-button{
+  background-color: coral;
+  color: blueviolet;
+  /* margin-bottom: 8px; */
+}
+
+/* meme-container */
+.meme{
+  position:relative;
+}
+
+/* meme-image */
+.meme-Image{
+    max-width:100%;
+    height:300px
+}
+
+/* meme texts (top and bottom) */
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 12%;
+  margin: 15px 0;
+  overflow-wrap: break-word;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
